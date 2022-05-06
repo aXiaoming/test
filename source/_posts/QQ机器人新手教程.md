@@ -50,9 +50,14 @@ https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc1
 
 
 然后创建nb项目：
+nb命令在环境变量中添加：
+D:\Application\Anaconda3\envs\nonebot_env\Scripts
+
 ![image](https://user-images.githubusercontent.com/84505329/167171967-b2eaec24-6d5b-4cfe-aff8-8b602722aab7.png)
 
 项目创建完成后，修改配置文件
+nb在环境的
+
 ![image](https://user-images.githubusercontent.com/84505329/167172186-515872c5-3d08-4d82-97db-9c4abf1d417b.png)
 将刚才配置的端口号复制进去。
 
@@ -73,6 +78,61 @@ CUSTOM_CONFIG2=  # 留空则从系统环境变量读取，如不存在则为空�
 
 然后就可以启动了
 先启动python程序，再启动go-cqhttp
+
+
+
+
+# nonebot-plugin-gocqhttp插件
+
+https://github.com/mnixry/nonebot-plugin-gocqhttp
+
+nb create先创建项目。
+
+![image](https://user-images.githubusercontent.com/84505329/167173293-03055e3f-a63d-467e-bc99-4f4b9ed998cf.png)
+
+安装插件
+pip命令
+
+配置端口号
+
+导入插件
+![image](https://user-images.githubusercontent.com/84505329/167173991-728eb103-9d0d-460e-8e5c-76de612f8ad6.png)
+
+启动
+
+然后就可以浏览器打开了
+![image](https://user-images.githubusercontent.com/84505329/167174233-89fc8d02-d562-4189-b900-98a9de73aab1.png)
+
+
+## 关闭机器人：
+先在web页面停止
+然后ctrl + c停止服务
+
+
+
+# 使用插件
+
+进入官方文档的插件库中：
+https://v2.nonebot.dev/store
+
+进入后，可以使用pip安装，然后在启动文件中加载
+
+![image](https://user-images.githubusercontent.com/84505329/167175148-99525ae9-b1a3-4d61-8f50-61e41531e109.png)
+
+
+# 适配旧版插件
+robot adapt cq-http
+![image](https://user-images.githubusercontent.com/84505329/167175790-7a2199c0-f116-4762-aa69-753e54bf6697.png)
+
+点击最后一个链接
+![image](https://user-images.githubusercontent.com/84505329/167175905-e4fb4a78-6ce8-40a9-9a44-ca355741e55e.png)
+
+把红线部分删掉，替换为
+
+![image](https://user-images.githubusercontent.com/84505329/167176163-40f28722-a042-43a3-a65a-26b3e0e04367.png)
+
+
+
 
 
 
