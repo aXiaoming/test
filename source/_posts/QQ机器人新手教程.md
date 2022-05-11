@@ -116,7 +116,7 @@ pip命令
 进入官方文档的插件库中：
 https://v2.nonebot.dev/store
 
-进入后，可以使用pip安装，然后在启动文件中加载
+进入后，可以使用pip安装，然后在启动文件中加载   
 
 ![image](https://user-images.githubusercontent.com/84505329/167175148-99525ae9-b1a3-4d61-8f50-61e41531e109.png)   
 
@@ -125,10 +125,13 @@ https://v2.nonebot.dev/store
 robot adapt cq-http   
 ![image](https://user-images.githubusercontent.com/84505329/167175790-7a2199c0-f116-4762-aa69-753e54bf6697.png)   
 
-点击最后一个链接
+点击最后一个链接   
 ![image](https://user-images.githubusercontent.com/84505329/167175905-e4fb4a78-6ce8-40a9-9a44-ca355741e55e.png)   
 
 把红线部分删掉，替换为
+![image](https://user-images.githubusercontent.com/84505329/167842670-54997006-98b5-4d81-8c14-5670caf902ca.png)   
+
+
 
 ![image](https://user-images.githubusercontent.com/84505329/167176163-40f28722-a042-43a3-a65a-26b3e0e04367.png)   
 
